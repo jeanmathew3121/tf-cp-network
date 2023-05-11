@@ -18,9 +18,9 @@ provider "checkpoint" {
 
 
 resource "checkpoint_management_network" "example" {
-  name = "New Network 1"
-  subnet4 = "192.0.2.0"
-  mask_length4 = 32
+  name = var.cp-network-name
+  subnet4 = var.cp-network-ip
+  mask_length4 = ${var.cp-mask_length}
 }
 
 
