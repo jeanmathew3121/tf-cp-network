@@ -15,6 +15,6 @@ variable "cp-network-name"{
 }
 variable "cp-network-ip" {}
 
-variable "cp-mask_length {
+variable "cp-mask_length" {
  
 }
