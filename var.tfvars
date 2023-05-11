@@ -1,0 +1,6 @@
+server = ""
+username = ""
+password = ""
+context  = ""
+//cp-host-name = ""
+//cp-host-ipv4_address = ""
