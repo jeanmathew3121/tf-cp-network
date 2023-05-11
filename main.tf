@@ -17,11 +17,11 @@ provider "checkpoint" {
 
 
 
-resource "checkpoint_management_network" "example" {
+resource "checkpoint_management_network" "add-network" {
   name = var.cp-network-name
   subnet4 = var.cp-network-ip
   mask_length4 = ${var.cp-mask_length}
 }
 
 
-resource "checkpoint_management_publish" "example" { }
+resource "checkpoint_management_publish" "cp-install" { }
