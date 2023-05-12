@@ -13,6 +13,7 @@ provider "checkpoint" {
   username = var.cp-mgmt-username
   password = var.cp-mgmt-password
   context  = var.cp-mgmt-context
+  session_name = "terraform_session"
 }
 
 
@@ -24,4 +25,4 @@ resource "checkpoint_management_network" "add-network" {
 }
 
 
-resource "checkpoint_management_publish" "cp-install" { }
+resource "checkpoint_management_publish" "example" { }
