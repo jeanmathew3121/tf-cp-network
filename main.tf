@@ -26,3 +26,4 @@ resource "checkpoint_management_network" "add-network" {
 
 
 resource "checkpoint_management_publish" "example" { }
+resource "checkpoint_management_logout" "example" {}
