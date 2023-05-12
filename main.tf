@@ -25,5 +25,9 @@ resource "checkpoint_management_network" "add-network" {
 }
 
 
-resource "checkpoint_management_publish" "example" { }
-resource "checkpoint_management_logout" "example" {}
+resource "checkpoint_management_publish" "publish" { }
+resource "checkpoint_management_logout" "example" {
+  depends_on = [
+    checkpoint_management_publish.publish
+ ]
+}
