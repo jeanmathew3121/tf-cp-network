@@ -15,10 +15,10 @@ variable "cp-network-name"{
 
 }
 variable "cp-network-ip" {
-    default = "1.1.1.1"
+    
 }
 
 variable "cp-mask_length" {
-    default = 24
+    
  
 }
